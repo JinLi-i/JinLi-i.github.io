@@ -226,6 +226,40 @@ a:hover {
     margin-bottom: 0.25rem;
 }
 
+/* Publication Links */
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    /* Slightly smaller to fit inline nicely */
+    font-style: normal;
+    /* Reset italic from parent */
+    color: var(--text-muted);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    /* Space from badge/text */
+    vertical-align: middle;
+}
+
+.icon-link:hover {
+    color: var(--primary-color);
+    border-color: var(--accent-color);
+    background-color: #f0f9ff;
+    /* Light blue tint on hover */
+    text-decoration: none;
+}
+
+.icon-link svg {
+    width: 14px;
+    height: 14px;
+}
+
 .pub-tldr {
     font-size: 0.9rem;
     color: var(--text-muted);
