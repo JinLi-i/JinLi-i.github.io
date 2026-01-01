@@ -1,9 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="refresh" content="0; URL='https://scholar.google.com/citations?user=jmIpUa0AAAAJ'" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jin Li - Academic Homepage</title>
+    <meta name="description"
+        content="Jin Li - PhD Student at UTS. Research focus: Trustworthy multimodal representation learning.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <p>If you are not redirected, <a href="https://scholar.google.com/citations?user=jmIpUa0AAAAJ">click here</a>.</p>
+    <div class="container">
+        <!-- Sidebar / Profile Section -->
+        <aside class="profile-section">
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <img src="assets/profile.png" alt="Jin Li" class="profile-image">
+                </div>
+                <h1 class="profile-name">Jin Li</h1>
+                <p class="profile-title">PhD Candidate</p>
+                <p class="profile-affiliation">University of Technology Sydney</p>
+
+                <div class="contact-info">
+                    <a href="mailto:Jin.Li-4@student.uts.edu.au" class="contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=jmIpUa0AAAAJ" class="contact-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        Google Scholar
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- About -->
+            <section id="about" class="section">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-content">
+                    <p>
+                        I am a PhD student at the Faculty of Engineering and Information Technology, University of Technology Sydney (UTS), Australia, starting from July 2023. Previously, I obtained my B.Eng. & M.Eng. degrees from the School of Information Engineering, Yangzhou University, China (2016-2023), where I ranked 5/201 and was awarded First Prize for Outstanding Dissertation.
+                    </p>
+                    <p>
+                        My current research focus is <strong>Trustworthy Multimodal Representation Learning</strong>. I am interested in exploring causal mechanisms behind fairness, bias, and robustness in generative multimodal Recommender Systems.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section id="education" class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="section-content">
+                    <div class="education-item">
+                        <div class="edu-institution"><strong>University of Technology Sydney</strong></div>
+                        <div class="edu-details">PhD Candidate, Faculty of Engineering and Information Technology</div>
+                        <div class="edu-date">2023.07 - Present</div>
+                    </div>
+                    <div style="margin-top: 1rem;" class="education-item">
+                        <div class="edu-institution"><strong>Yangzhou University</strong></div>
+                        <div class="edu-details">B.Eng. & M.Eng., School of Information Engineering</div>
+                        <div class="edu-date">2016.09 - 2023.06</div>
+                        <div class="edu-notes"
+                            style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.25rem;">
+                            GPA: 4.06 &bull; Rank: 5/201 &bull; Model Student
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="news" class="section">
+                <h2 class="section-title">Recent Highlights</h2>
+                <div class="section-content">
+                    <ul class="news-list">
+                        <li>
+                            <span class="news-date">2025.10</span>
+                            <span class="news-text">Received <strong>NeurIPS 2025 Scholar Award</strong>.</span>
+                        </li>
+                        <li>
+                            <span class="news-date">2025.09</span>
+                            <span class="news-text">Paper accepted to <strong>NeurIPS 2025</strong> (CORE A*).</span>
+                        </li>
+                        <li>
+                            <span class="news-date">2025.01</span>
+                            <span class="news-text">Paper accepted to <strong>The Web Conference (WWW) 2025</strong>
+                                (CORE A*).</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="publications" class="section">
+                <h2 class="section-title">Publications</h2>
+
+                <h3 class="subsection-title">Trustworthy Multimodal Learning</h3>
+                <div class="publication-item">
+                    <div class="pub-title">Revealing Multimodal Causality with Large Language Models</div>
+                    <div class="pub-authors"><strong>Jin Li</strong>, Shoujin Wang, Qi Zhang, Feng Liu, Tongliang Liu, Longbing Cao, Shui Yu, Fang Chen</div>
+                    <div class="pub-venue">NeurIPS 2025 <span class="badge core-a-star">CORE A*</span></div>
+                    <p class="pub-tldr">TL;DR: Leveraging the knowledge and reasoning capabilities of multimodal LLMs to extend the scope of causal discovery to multimodal unstructured data.</p>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Generating with Fairness: A Modality-Diffused Counterfactual Framework for Incomplete Multimodal Recommendations</div>
+                    <div class="pub-authors"><strong>Jin Li</strong>, Shoujin Wang, Qi Zhang, Shui Yu, Fang Chen</div>
+                    <div class="pub-venue">The ACM Web Conference (WWW) 2025 <span class="badge core-a-star">CORE A*</span></div>
+                    <p class="pub-tldr">TL;DR: Identifying and alleviating the fairness issue in incomplete multimodal RSs using diffusion generation and causal inference.</p>
+                </div>
+
+                <h3 class="subsection-title">Multiview Representation Learning</h3>
+                <div class="publication-item">
+                    <div class="pub-title">SepDiff: Self-Encoding Parameter Diffusion for Learning Latent Semantics
+                    </div>
+                    <div class="pub-authors">Zhangkai Wu, Xuhui Fan, <strong>Jin Li</strong>, Zhilin Zhao, Hui Chen, Longbing Cao</div>
+                    <div class="pub-venue">ACM SIGKDD 2025 <span class="badge core-a-star">CORE A*</span></div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Learning Canonical F-Correlation Projection for Compact Multiview Representation</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Yun Li, Jipeng Qiang, Yi Zhu, Xiaobo Shen, Jianping Gou</div>
+                    <div class="pub-venue">IEEE CVPR 2022 <span class="badge core-a-star">CORE A*</span></div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Learning Simultaneous Facial Canonical Correlation Representation for Face
+                        Hallucination</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Jipeng Qiang, Yi Zhu, Xiaobo Shen, Yun Li</div>
+                    <div class="pub-venue">IEEE ICASSP 2025</div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Learning Fractional Orthogonal Latent Consistent Features for Face
+                        Hallucination and Recognition</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Yun Li, Jipeng Qiang, Bin Li</div>
+                    <div class="pub-venue">IEEE ICASSP 2020</div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Learning Super-Resolution Coherent Facial Features Using Nonlinear Multiset
+                        PLS for Low-Resolution Face Recognition</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Yun Li, Jianping Gou, Jipeng Qiang, Quan-Sen Sun</div>
+                    <div class="pub-venue">IEEE ICIP 2019</div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Learning Simultaneous Face Super-Resolution Using Multiset Partial Least Squares</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Jianping Gou, Yun Li, Jipeng Qiang, Bin Li</div>
+                    <div class="pub-venue">IEEE ICME 2019 <span class="badge core-a-star">CORE A</span></div>
+                </div>
+
+                <h3 class="subsection-title">Journal Articles</h3>
+                <div class="publication-item">
+                    <div class="pub-title">OPLS-SR: A Novel Face Super-Resolution Learning Method Using Orthonormalized Coherent Features</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Yun Li, Jipeng Qiang, Bin Li, Wankou Yang, Furong Peng</div>
+                    <div class="pub-venue">Information Sciences, 2021</div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-title">Learning Unsupervised and Supervised Representations via General Covariance</div>
+                    <div class="pub-authors">Yun-Hao Yuan, <strong>Jin Li</strong>, Yun Li, Jianping Gou, Jipeng Qiang</div>
+                    <div class="pub-venue">IEEE Signal Processing Letters, 2020</div>
+                </div>
+            </section>
+
+            <!-- Honours & Awards -->
+            <section id="awards" class="section">
+                <h2 class="section-title">Honours & Awards</h2>
+                <div class="section-content">
+                    <ul class="simple-list">
+                        <li><strong>NeurIPS 2025 Scholar Award</strong>, Neural Information Processing Foundation (2025.10)</li>
+                        <li><strong>PhD Scholarship</strong>, China Scholarship Council (2023.06)</li>
+                        <li><strong>National Scholarship</strong>, Ministry of Education, China (2021.12)</li>
+                        <li><strong>First Prize of 3rd DIGIX Global Campus AI Algorithm Elite Competition</strong> (2021.09)</li>
+                        <li><strong>First Prize of Outstanding Dissertation</strong>, Jiangsu Province (Top 0.1%) (2021.06)</li>
+                        <li><strong>Outstanding Graduate</strong>, Yangzhou University (2020.06)</li>
+                        <li><strong>National Encouragement Scholarship</strong> (2017-2019)</li>
+                        <li><strong>First Prize of 10th Lanqiao Cup Programming Contest</strong> (Jiangsu Track) (2019.03)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Professional Activities -->
+            <section id="service" class="section">
+                <h2 class="section-title">Professional Service</h2>
+                <div class="section-content">
+                    <p><strong>Reviewer</strong> for:</p>
+                    <ul class="simple-list">
+                        <li>The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</li>
+                        <li>The Annual Conference on Neural Information Processing Systems (NeurIPS)</li>
+                        <li>The International Conference on Learning Representations (ICLR)</li>
+                        <li>The ACM Web Conference (WWW)</li>
+                        <li>The Annual AAAI Conference on Artificial Intelligence (AAAI)</li>
+                        <li>The ACM International Conference on Multimedia (ACM-MM)</li>
+                        <li>The IEEE Transactions on Computational Social Systems (IEEE TCSS)</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
