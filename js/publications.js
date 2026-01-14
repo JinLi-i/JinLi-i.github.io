@@ -43,7 +43,7 @@ const publicationData = [
             },
             {
                 title: "Towards Fair Large Language Model-based Recommender Systems without Costly Retraining",
-                authors: ["Jin Li", "Shoujin Wang", "Qi Zhang", "Feng Liu", "Tongliang Liu", "Longbing Cao", "Shui Yu", "Fang Chen"],
+                authors: ["Jin Li", "Huilin Gu", "Shoujin Wang", "Qi Zhang", "Shui Yu", "Chen Wang", "Xiwei Xu", "Fang Chen"],
                 venue: "The ACM Web Conference (WWW) 2026",
                 badges: [{ text: "CORE A*", type: "core-a-star" }],
                 links: [],
