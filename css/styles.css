@@ -185,11 +185,13 @@ a:hover {
 }
 
 .subsection-title {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 700;
     margin-top: var(--spacing-lg);
-    margin-bottom: var(--spacing-sm);
-    color: var(--text-main);
+    margin-bottom: var(--spacing-md);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
 }
 
 .section-content {

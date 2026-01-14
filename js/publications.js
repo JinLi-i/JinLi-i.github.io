@@ -123,7 +123,7 @@ const publicationData = [
         ]
     },
     {
-        category: "Journal Articles",
+        category: "Journal Papers",
         papers: [
             {
                 title: "OPLS-SR: A Novel Face Super-Resolution Learning Method Using Orthonormalized Coherent Features",
