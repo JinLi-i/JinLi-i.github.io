@@ -57,9 +57,68 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Navigation */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--spacing-lg);
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--text-main);
+    margin-left: var(--spacing-lg);
+    /* Move brand right to align better with content */
+}
+
+.nav-brand:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .nav-container {
+        padding: 0 var(--spacing-xl);
+    }
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 /* Layout */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -70,7 +129,7 @@ a:hover {
     .container {
         flex-direction: row;
         gap: var(--spacing-xl);
-        padding: var(--spacing-xl);
+        padding: var(--spacing-xl) var(--spacing-xl) 0;
     }
 }
 
@@ -86,8 +145,8 @@ a:hover {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     text-align: center;
-    position: sticky;
-    top: var(--spacing-xl);
+    /* position: sticky; */
+    /* top: var(--spacing-xl); */
 }
 
 .profile-image-container {
@@ -150,9 +209,9 @@ a:hover {
 .main-content {
     flex: 1;
     padding: var(--spacing-lg);
-    background: var(--bg-card);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    /* background: var(--bg-card); */
+    /* border-radius: var(--radius-lg); */
+    /* box-shadow: var(--shadow-md); */
     margin: var(--spacing-lg) 0;
     /* Margin on mobile */
 }
@@ -164,6 +223,8 @@ a:hover {
 }
 
 .section {
+    scroll-margin-top: 80px;
+    /* Offset for fixed navbar */
     margin-bottom: var(--spacing-xl);
     border-bottom: 1px solid var(--border-color);
     padding-bottom: var(--spacing-lg);
