@@ -31,6 +31,21 @@ const publicationData = [
         category: "Trustworthy Multimodal Learning",
         papers: [
             {
+                title: "Steering Diffusion Models Towards Credible Content Recommendation",
+                authors: ["Zhuo Cai", "Shoujin Wang", "Jin Li", "Peilin Zhou", "Victor W. Chu", "Fang Chen", "Tianqing Zhu", "Charu C. Aggarwal"],
+                venue: "ICLR 2026",
+                badges: [{ text: "CORE A*", type: "core-a-star" }],
+                tldr: "TL;DR: A novel diffusion-based model tailored for credible content recommendation."
+            },
+            {
+                title: "Towards Fair Large Language Model-based Recommender Systems without Costly Retraining",
+                authors: ["Jin Li", "Huilin Gu", "Shoujin Wang", "Qi Zhang", "Shui Yu", "Chen Wang", "Xiwei Xu", "Fang Chen"],
+                venue: "The ACM Web Conference (WWW) 2026",
+                badges: [{ text: "CORE A*", type: "core-a-star" }],
+                links: [],
+                tldr: "TL;DR: A general and efficient debiasing framework for LLM-based recommender systems using the influence function."
+            },
+            {
                 title: "Revealing Multimodal Causality with Large Language Models",
                 authors: ["Jin Li", "Shoujin Wang", "Qi Zhang", "Feng Liu", "Tongliang Liu", "Longbing Cao", "Shui Yu", "Fang Chen"],
                 venue: "NeurIPS 2025",
@@ -40,14 +55,6 @@ const publicationData = [
                     { text: "Code", url: "https://github.com/JinLi-i/MLLM-CD", type: "code" }
                 ],
                 tldr: "TL;DR: Leveraging the knowledge and reasoning capabilities of multimodal LLMs to extend the scope of causal discovery to multimodal unstructured data."
-            },
-            {
-                title: "Towards Fair Large Language Model-based Recommender Systems without Costly Retraining",
-                authors: ["Jin Li", "Huilin Gu", "Shoujin Wang", "Qi Zhang", "Shui Yu", "Chen Wang", "Xiwei Xu", "Fang Chen"],
-                venue: "The ACM Web Conference (WWW) 2026",
-                badges: [{ text: "CORE A*", type: "core-a-star" }],
-                links: [],
-                tldr: "TL;DR: A general and efficient debiasing framework for LLM-based recommender systems using the influence function."
             },
             {
                 title: "Generating with Fairness: A Modality-Diffused Counterfactual Framework for Incomplete Multimodal Recommendations",
