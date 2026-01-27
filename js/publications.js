@@ -28,7 +28,7 @@
 
 const publicationData = [
     {
-        category: "Trustworthy Multimodal Learning",
+        category: "Trustworthy Representation Learning",
         papers: [
             {
                 title: "Steering Diffusion Models Towards Credible Content Recommendation",
