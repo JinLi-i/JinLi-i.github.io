@@ -43,7 +43,7 @@ const publicationData = [
                 venue: "The ACM Web Conference (WWW) 2026",
                 badges: [{ text: "CORE A*", type: "core-a-star" }],
                 links: [
-                    { text: "Paper", url: "https://arxiv.org/abs/2601.17492", type: "paper" },
+                    { text: "Paper", url: "https://arxiv.org/pdf/2601.17492", type: "paper" },
                 ],
                 tldr: "TL;DR: A general and efficient debiasing framework for LLM-based recommender systems using the influence function."
             },
